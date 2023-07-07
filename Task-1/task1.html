@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label {
+            display: block;
+        }
+        #submit {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <main>
+        <hr>
+        <section class="sel-images">
+            <label for="image">
+                Search your images here:
+                <input type="text"> 
+                <input type="button" value="Search">
+                <img width="300px" src="./images/panda.jpg" alt="Panda's trying to hug"> <br>
+                <a href="#">For more click here</a>
+            </label>
+        </section>
+        <hr>
+        <form>
+            <h3>Feedback Form</h3>
+            <label for="name">
+                Name: <br>
+                <input type="text" placeholder="Your Name">
+            </label>
+            <label for="date">
+                Date: <br>
+                <input type="date" name="" id="date">
+            </label>
+            <label for="comment">
+                Comment: <br>
+                <textarea name="" id="comment" cols="50" rows="5"></textarea>
+            </label>
+            <input id="submit" type="submit" value="Submit">
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
